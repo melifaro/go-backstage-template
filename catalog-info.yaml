@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: go-backstage-template
+  description: go-backstage-template
+  annotations: 
+    github.com/project-slug: melifaro/go-backstage-template
+    backstage.io/source-ref: "https://github.com/melifaro/go-backstage-template"
+    backstage.io/techdocs-ref: url:https://github.com/melifaro/go-backstage-template
+    backstage.io/github-actions-id: https://github.com/melifaro/go-backstage-template
+spec:
+  type: service
+  lifecycle: experimental
+  owner: me
